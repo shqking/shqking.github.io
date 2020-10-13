@@ -2,36 +2,71 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: info
+  - title: Biography
     url: false
     entries:
-      - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
+      - title: Software engineer at ARM, Shanghai, China (2020-). Worked at ALIBABA and HUAWEI (2016-2020). PhD in Computer Science from Nanjing University (NJU), China (2010-2016).
+        url: false
+      - title: Research Interests&#58 Compilers, Program Analysis, Software Security and Testing.
+        url: false
+      - title: Email&#58 "echo c2hxa2luZ0BnbWFpbC5jb20K | base64 --decode"
         url: false
       - title: github
-        url: https://github.com/riggraz/no-style-please
-      - title: used by riggraz.dev
-        url: https://riggraz.dev/
+        url: https://github.com/shqking
+      - title: linkedin
+        url: https://www.linkedin.com/in/hao-sun-902a66145/
 
-  - title: thoughts
+  - title: Recent Publications
+    url: false
+    entries:
+      - title: 'IntRepair: Informed Repairing of Integer Overflows. [TSE 2019]'
+        url: false
+      - title: 'Automatic Self-Validation for Code Coverage Profilers. [ASE 2019]'
+        url: false
+      - title: 'Hunting for Bugs in Code Coverage Tools via Randomized Differential Testing. [ICSE 2019]'
+        url: false
+      - title: full list
+        url: publications
+  
+  - title: Patents
+    url: false
+    entries:
+      - title: 代码处理方法和装置(in Chinese). No. 86520663CN01.
+        url: false
+
+  - title: Bug Reports
+    url: false
+    entries:
+      - title: In total, ~ 40 bugs we found have been fixed by the developers, and 22 of them were assigned with CVE IDs.
+        url: false
+      - title: full list
+        url: bugs
+
+  - title: Toys
+    url: false
+    entries:
+      - title: Safe DSE. GCC version of Scrubbing Finder (USENIX Security 2017 paper)
+        url: https://github.com/shqking/safe-dse-gcc
+
+  - title: Writeups
     post_list: true
     url: false
     entries: false
 
-  - title: rss
-    url: feed.xml
-  
-  - title: another list
+  - title: 'Last modified: 2020-11'
     url: false
-    entries:
-      - title: with subitems
-        url: false
-        entries:
-          - title: with subsubitems
-            url: false
-          - title: example page
-            url: about
-  - title: PRO TIP
-    url: false
-    entries:
-      - title: to edit this menu, edit _data/menu.yml file
-        url: false
+#  - title: another list
+#    url: false
+#    entries:
+#      - title: with subitems
+#        url: false
+#        entries:
+#          - title: with subsubitems
+#            url: false
+#          - title: example page
+#            url: about
+#  - title: PRO TIP
+#    url: false
+#    entries:
+#      - title: to edit this menu, edit _data/menu.yml file
+#        url: false
